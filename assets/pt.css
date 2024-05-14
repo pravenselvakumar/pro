@@ -1,0 +1,298 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+.love{
+    width: 100%;
+    height: 400px;
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.parent1{
+    width: 60%;
+    height: 400px;
+    background-color: rgb(99, 245, 245);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+}
+.img1{
+    width: 100%;
+    height: 70%;
+}
+.img2{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+}
+.parent1:hover .img2{
+    display: none;
+    transition: 0.2s;
+    
+}.parent7{
+    width: 95%;
+    height: 100%;
+    /* background-color: blue; */
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    margin: 0 auto;
+    gap: 10px;
+    /* position: relative; */
+    
+   
+
+}
+.child22{
+    width: 95%;
+    height: 90%;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    position: relative;
+}
+.child23 img{
+    width: 100%;
+    height: 65vh;
+}
+.child23img2{
+    width: 100%;
+    height: 65vh;
+    position: absolute;
+
+
+}
+.child24{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    
+}
+.child28{
+    display: flex;
+    gap: 10px;
+}
+.child09{
+    color:rgb(122,189,181) ;
+    
+}
+.child25{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+.child25:hover{
+    color: rgb(79, 136, 243);
+}
+.child27{
+    color: gold;
+}
+.child32{
+    color: rgb(122,189,181);
+    border-color: black;
+}
+.child33{
+    color: rgb(215,178,188);
+    border-color: black;
+}
+.child35{
+    color: black;
+
+}
+.child36{
+    color: rgb(215,178,188);
+}
+.child37{
+    color:rgb(123,76,57) ;
+}
+.child39{
+    border-radius: 50
+    color:rgb(123,76,57) ;
+}
+.child40{
+    color: white;
+    border-color: black;
+}
+.child42{
+    color: rgb(122,189,181);
+}
+.child43{
+    color: black;
+}
+.child44{
+    color: white;
+}
+.child46{
+    color: rgb(122,189,181);
+}
+.child47{
+    color: rgb(69,138,209);
+}
+.child49{
+    color:rgb(69,138,209) ;
+}
+.child50{
+    color: rgb(169,192,224);
+}
+.child52{
+    color: rgb(128,128,128);
+}
+.child54{
+    color: white;
+}
+.child55{
+    color: rgb(226,194,143);
+}
+.child58{
+    color: black;
+}
+.child59{
+    color: rgb(169,192,224);
+
+}
+.child61{
+    color: beige;
+}
+.child62{
+     color: rgb(128,128,128);
+}
+.child63{
+    color: rgb(123,76,57);
+}
+.child65{
+    color: brown;
+
+}
+.child66{
+    color: black;
+}
+.child68{
+    color: black;
+}
+.child69{
+    color:rgb(236, 149, 236);
+}
+.child71{
+    color: rgb(69,138,209);
+}
+.child72{
+    color: rgb(122,189,181);
+}
+.child74{
+    color: rgb(122,189,181);
+}
+.child75{
+    color: black;
+}.child77{
+    color: black;
+}
+.child78{
+    color: rgb(128,128,0);
+}
+.child80{
+    color: rgb(246,209,219);
+}
+.child81{
+    color: black;
+}
+.child83{
+    color: rgb(206,46,46);
+}
+.child84{
+    color: black;
+}
+.child85{
+    color: rgb(122,189,181);
+}
+.child87{
+    color: rgb(123,76,57);
+}
+.child88{
+    color: rgb(61,128,128);
+}
+.child90{
+    color: white;
+    background-image: url("https://umino-demo.myshopify.com/cdn/shop/products/fashion_products_8_1_be5c096f-cc75-4a9e-8ba9-bb9bf3819682.jpg?v=1679883302");
+}
+.child93{
+    color: rgb(123,76,57);
+}
+.child94{
+    color: rgb(226,194,143);
+}
+.child96{
+    color: rgb(246,209,219);
+}
+.child97{
+    color: black;
+}
+.chil99{
+    color: white;
+}
+.child100{
+    color: black;
+}
+.child102{
+    color: rgb(239,164,28);
+}
+.child103{
+    color: rgb(236,130,238);
+}
+.child105{
+    color: rgb(122,189,181);
+}
+.child106{
+    color: rgb(69,138,209);
+}
+.child111{
+    color: rgb(122,189,181);
+}
+.img2{
+    width: 100%;
+    height: 65vh;
+    position: absolute;
+}
+.parent7:hover.child23{
+    /* opacity: 0; */
+    display: block;
+}
+.parent7{
+    width: 100%;
+    height: 400px;
+    /* background-color: blueviolet; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.child7.1{
+    width: 60%;
+    height: 400px;
+    background-color: rgb(99, 245, 245);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+}
+.img1{
+    width: 100%;
+    height: 70%;
+}
+.img2{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+}
+.parent7:hover .img2{
+    display: none;
+    /* transition: 0.2s; */
+    
+}
+
+
+
+

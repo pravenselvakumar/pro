@@ -1,0 +1,759 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family:initial;
+}
+.parent1{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(37,51,128);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:initial
+    border-bottom-style:inset;
+    
+}
+.button1{
+    width: 26%;
+    font-size:medium;
+    display: flex;
+    justify-content: space-between;
+}
+.btn1{
+    color: white;
+    text-decoration: none;
+}
+.btn2{
+    color: white;
+    text-decoration: none;
+}
+.heading{
+    width: 26%;
+    display: flex;
+    justify-content: space-between;
+    font-size: medium;
+    
+}
+.parent2{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(37,51,128);
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.child1{
+    color: white;
+}
+.child2{
+    width: 40%;
+    height: 35px;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    font-size:medium;
+    color:gray;
+}
+.child2 input{
+    width: 60%;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: medium;
+    align-items: center;
+}
+.btn3{
+    border-top-right-radius: 20px;
+
+    
+    border-bottom-right-radius: 20px;
+    width: 20%;
+    height: 100%;
+    border: none;
+    background-color:rgb(80,163,195);
+    font-size: medium;
+    font-weight: 600;
+    color: white;
+}
+.child3{
+    width: 20%;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.subchild1{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.subchild1 sub{
+    color: black;
+}
+.subchild1 a{
+    text-decoration: none;
+    display: flex;
+    color: white;
+}
+.subchild3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.subchild3 a{
+    text-decoration: none;
+    display: flex;
+    color: white;
+}
+
+.parent3{
+    width: 100%;
+    height:10vh;
+    display: flex;
+    justify-content: space-around;
+    font-size: medium;
+    align-items: center;
+    font-weight: 600;
+    color: black;
+    
+}
+.child4{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.child5{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.child6{   
+    color: black;
+    text-decoration: none;
+}
+.child6:hover{
+    color: rgb(79, 136, 243);
+}
+.child7{
+    color: black;
+    text-decoration: none;
+}
+.child7:hover{
+    color: rgb(79, 136, 243);
+}
+.child8{
+    color: black;
+    text-decoration: none;
+}
+.child8:hover{
+    color: rgb(79, 136, 243);
+}
+.child9{
+    color: black;
+    text-decoration: none;
+}
+.child9:hover{
+    color: rgb(79, 136, 243);
+}
+.child10{
+    color: black;
+    text-decoration: none;
+}
+.child10:hover{
+    color: rgb(79, 136, 243);
+}
+.child11{
+    color: black;
+    text-decoration: none;
+}
+.child11:hover{
+    color: rgb(79, 136, 243);
+}
+.child13{
+    color: black;
+    text-decoration: none;
+}
+.child13:hover{
+    color: rgb(79, 136, 243);
+}
+.backimg{
+    width: 100%;
+    height: 50vh;
+}
+.parent4{
+    width: 100%;
+    height: 30vh;
+    background-image: url(https://umino-demo.myshopify.com/cdn/shop/files/banner-digital.jpg?v=1681470110);
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.child14{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.parent5{
+    width: 100%;
+    height: 60vh;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    
+}
+.child15{
+    width: 95%;
+    height: 50vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* background-color: aqua; */
+    align-items: center;
+    gap: 15px;
+}
+.child15{
+    width: 100%;
+    height:40vh ;
+    /* display: flex; */
+    /* flex-direction: column; */
+    position: relative;
+}
+.child16{
+    width: 90%;
+    height: 40vh;
+    /* display: flex;
+    flex-direction: column; */
+    margin: 0 auto;
+}
+.kumar{
+    padding: 15px 40px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 10%;
+    left: 3%;
+    text-align: center;
+}
+.kumar1{
+    padding: 15px 40px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 10%;
+    left:22%;
+    text-align: center;
+}
+.kumar2{
+    padding: 15px 40px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 10%;
+    left: 43%;
+    text-align: center;
+}
+.kumar3{
+    padding: 15px 40px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 10%;
+    left: 63%;
+    text-align: center;
+}
+.kumar4{
+    padding: 15px 40px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 10%;
+    left: 83%;
+    text-align: center;
+}
+.child16:hover{
+    transform: scale(1.1);
+}
+.parent6{
+    width: 100%;
+    height: 10vh;
+   
+}
+.child17{
+    width: 100%;
+    height: 10vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.child18{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    height: 30px;
+    width: 30%;
+    font-size: small;
+    background-color: black;
+    color: white;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.child20{
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+.child21{
+    text-decoration: none;
+    color: black;
+}
+.parent7{
+    width: 95%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    display: grid;
+    grid-template-columns: repeat(3,10fr);
+    gap: 5px;
+    margin: 0 auto;
+    
+}
+.child22{
+    width: 100%;
+    height: 500px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 10px;
+    position: relative;
+    margin: 0 auto;
+
+}
+.para{
+    background-color: red;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 50px;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+.img1{
+ width: 90%;
+ height: 350px;
+ 
+}
+.img2{
+    width: 90%;
+    height: 350px;
+
+    position: absolute;
+    display: none;
+}
+.child22:hover .img2{
+    display: block;
+    /* transition: ; */
+    
+}
+.child23{
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+.child24{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.child{
+    font-weight: 600;
+}
+.child24:hover{
+    color: rgb(80,163,195);
+}
+.child25{
+    color: gold;
+}
+.child26{
+    display: flex;
+    gap: 5px;
+}
+.child27{
+    color: rgb(80,163,195);
+    font-weight: 900;
+}
+.child28{
+    font-weight: lighter;
+}
+
+.praven{
+    /* width: 100%;
+    height
+        display: flex; 
+    flex-direction: column; */
+}
+.childchild{
+    padding: 10px 10px;
+    background-color: white;
+    position: absolute;
+    border-radius:50px;
+    right: 12%;
+    top: 2%;
+    display: none;
+    
+}
+.childchild:hover{
+    background-color: black;
+    color: white;
+
+}
+.child22:hover .childchild{
+    display: block;
+
+}
+.childchild1{
+    padding: 10px 10px;
+    background-color: white;
+    position: absolute;
+    border-radius:50px;
+    right: 22%;
+    top: 2%;
+    display: none;
+    /* display: flex; */
+    /* flex-direction: column; */
+    
+    
+}
+.childchild1:hover{
+    background-color: black;
+    color: white;
+
+}
+.child22:hover .childchild1{
+    display: block;
+
+}
+.childchild2{
+    padding: 10px 10px;
+    background-color: white;
+    position: absolute;
+    border-radius:50px;
+    right: 32%;
+    top: 2%;
+    display: none;
+    
+    
+}
+.childchild2:hover{
+    background-color: black;
+    color: white;
+
+}
+.child22:hover .childchild2{
+    display: block;
+
+}
+.childchild3{
+    padding: 10px 10px;
+    background-color: white;
+    position: absolute;
+    border-radius:50px;
+    right: 42%;
+    top: 2%;
+    display: none;
+    
+    
+}
+.childchild3:hover{
+    background-color: black;
+    color: white;
+
+}
+.child22:hover .childchild3{
+    display: block;
+
+}
+.child30{
+
+    color: rgb(122,189,181);
+}
+.child31{
+    color: rgb(215,178,188);
+}
+.child32{
+
+    color: black;
+}
+.child33{
+    color: rgb(215,178,188);
+}
+.child34{
+    color: rgb(123,75,57);
+}
+.child35{
+    color: rgb(121,74,56);
+}
+.child36{
+    color: white;
+}
+.child37{
+    color: rgb(122,189,181);
+}
+.child38{
+    color: black;
+}
+.child39{
+    color: rgb(122,189,181);
+}
+.child40{
+    color: rgb(69,138,209);
+}
+.child41{
+    color: rgb(69,138,209);
+}
+.child42{
+    color: rgb(169,192,224);
+}
+.child43{
+    color: rgb(69,138,209);
+}
+.child44{
+    color: rgb(169,192,224);
+}
+.child45{
+    color: black;
+}
+.child46{
+    color: rgb(128,128,128);
+}
+.child47{
+    color: white;
+}
+.child48{
+    color:rgb(226,194,143) ;
+}
+.child49{
+    color: black;
+}
+.child50{
+    color:rgb(169,192,224) ;
+}
+.child51{
+    color:white ;
+}
+.child52{
+    color: rgb(128,128,128);
+}
+.child53{
+    color:rgb(123,76,57) ;
+}
+.child54{
+    color: rgb(123,76,57);
+}
+.child55{
+    color:black;
+}
+.child56{
+    color: black;
+}
+.child57{
+    color:rgb(215,178,188) ;
+}
+.child58{
+    color:rgb(69,138,209) ;
+}
+.child59{
+    color:rgb(122,189,181) ;
+}
+.child60{
+    color: rgb(122,189,181);
+}
+.child61{
+    color:black ;
+}
+
+
+.child62{
+    color: black;
+}
+.child63{
+    color:rgb(128,128,0) ;
+}
+.child64{
+    color:rgb(246,209,219) ;
+}
+.child65{
+    color:black ;
+}
+.child66{
+    color: black;
+}
+.child67{
+    color:rgb(206,46,46) ;
+}
+.child68{
+    color:black ;
+}
+.child69{
+    color:rgb(122,189,181) ;
+}
+.child70{
+    color:rgb(123,76,57) ;
+}
+.child71{
+    color:rgb(61,128,128) ;
+}
+
+.child72{
+    color:red ;
+}
+
+.child73{
+    color:green ;
+}
+
+.child74{
+    color:rgb(123,76,57) ;
+}
+
+.child75{
+    color:rgb(226,194,143) ;
+}
+
+.child76{
+    color: rgb(246,209,219);
+}
+
+.child077{
+    color:black ;
+}
+.child078{
+    color: rgb(255,255,255);
+}
+.child079{
+    color: black;
+}
+.child080{
+    color: rgb(239,164,28);
+}
+.child081{
+    color:rgb(236,130,238) ;
+}
+.child082{
+    color:rgb(197,228,224) ;
+}
+.child083{
+    color: rgb(69,138,209);
+}
+.child084{
+    color:rgb(226,194,143) ;
+}
+.child085{
+    color:rgb(169,192,224) ;
+}
+.child086{
+    color: rgb(122,189,181);
+}
+.child087{
+    color:white ;
+}
+.parent16{
+    width: 100%;
+    height: 75vh;
+    background-color: rgb(239,241,245);
+    margin: 0,auto;
+    display: flex;
+    align-items: center;
+    
+}
+.child79{
+    text-decoration: none;
+    color: rgb(80,163,195);
+    font-size: xx-large;
+    /* font-weight: 600; */
+}
+.child80{
+    text-decoration: none;
+    color: black;
+}
+.child78{
+    width: 33%;
+    height: 40vh;
+}
+.child78{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    gap: 20px;
+}
+.child81{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    gap: 20px;
+}
+.child82{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    gap: 20px;
+}
+.child83{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    gap: 20px;
+}
+.child84{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    gap: 20px;
+}
+.child77{
+    width: 90%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+@media(max-width:1200px){
+    .button1{
+        width: 40%;
+        font-size: large;
+    }
+    .heading{
+        width: 40%;
+        font-size:large;
+    }
+    .child4{
+        width: 20%;
+        font-size: large;
+    }
+    .child5{
+        width: 50%;
+    }
+}
